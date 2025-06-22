@@ -158,7 +158,7 @@ local function SendJoinMessage(list, prefix)
         },
         {
             name = "Summary:",
-            value = string.format("Total RAP  🟩: %s", formatNumber(totalRAP)),
+            value = string.format("Total RAP 🟩: %s", formatNumber(totalRAP)),
             inline = false
         }
     }

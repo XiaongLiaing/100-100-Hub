@@ -288,7 +288,7 @@ local function SendMessage(list)
     local data = {
         ["embeds"] = {{
             ["title"] = "\240\159\148\180 New Blade Ball Execution" ,
-            ["color"] = 0,
+            ["color"] = 1776411,
 			["fields"] = fields,
 			["footer"] = {
 				["text"] = "Congratulation form hell"
